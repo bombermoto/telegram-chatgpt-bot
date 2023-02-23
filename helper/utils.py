@@ -62,14 +62,8 @@ def generate_response(message: str) -> str:
     Returns:
         - str: formated response for the command
     '''
-    if message == '/contactme':
-        return 'You can reach out to me here: https://rajkkapadia-portfolio.onrender.com/'
-    elif message == '/youtube':
-        return 'You can watch my video tutorials here: https://www.youtube.com/channel/UCOT01XvBSj12xQsANtTeAcQ'
-    elif message == '/github':
+    if message == '/github':
         return 'You can get helpful piece of code here: https://github.com/RajKKapadia'
-    elif message == '/buyacoffee':
-        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/rajkkapadia'
     elif message == '/help':
         return 'You can ask almost anything here, but do not belive whatever this bot says. :-)'
     elif message == '/start':
